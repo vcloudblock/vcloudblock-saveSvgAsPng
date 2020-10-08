@@ -55,16 +55,16 @@
     return typeof v === 'undefined' || v === null || isNaN(parseFloat(v)) ? 0 : v;
   };
 
-  const getDimensions = (el, clone, width, height) => {
+  const getDimensions = (el, clone, inwidth, inheight) => {
     if (el.tagName === 'svg') return {
-      width: width || getDimension(el, clone, 'width'),
-      height: height || getDimension(el, clone, 'height')
+      width: inwidth || getDimension(el, clone, 'width'),
+      height: inheight || getDimension(el, clone, 'height')
     };
     else if (el.getBBox) {
       const {x, y, width, height} = el.getBBox();
       return {
-        width: x + width,
-        height: y + height
+        width: inwidth || (x + width),
+        height: inheight || (y + height)
       };
     }
   };
