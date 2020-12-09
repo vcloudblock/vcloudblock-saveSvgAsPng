@@ -12,8 +12,10 @@ cache:
 deploy:
 - provider: npm
   on:
-    branch:
-    - gh-pages
+    branches:
+      only:
+      - gh-pages
+      - /.*/
   skip_cleanup: true
   email: $NPM_EMAIL
   api_key: $NPM_TOKEN
