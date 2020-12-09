@@ -1,5 +1,5 @@
 {
-  "name": "save-svg-as-png",
+  "name": "scratchhw-save-svg-as-png",
   "version": "1.4.18",
   "description": "Convert a browser SVG to PNG or dataUri",
   "main": "lib/saveSvgAsPng.js",
