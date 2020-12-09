@@ -13,7 +13,7 @@ deploy:
 - provider: npm
   on:
     branch:
-    - gh-page
+    - gh-pages
   skip_cleanup: true
   email: $NPM_EMAIL
   api_key: $NPM_TOKEN
