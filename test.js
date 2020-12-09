@@ -2,7 +2,7 @@ var test = require('tape');
 
 test('Is loadable using requirejs', function (assert) {
 	var requirejs = require('requirejs');
-	requirejs(['./saveSvgAsPng'], function(saveSvgAsPng) {
+	requirejs(['./src/saveSvgAsPng'], function(saveSvgAsPng) {
 		assert.ok(saveSvgAsPng, 'Loads saveSvgAsPng module.');
 
 		var contract = {
