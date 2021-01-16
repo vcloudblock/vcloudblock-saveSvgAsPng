@@ -1,6 +1,6 @@
 (function() {
   const out$ = typeof exports != 'undefined' && exports || typeof define != 'undefined' && {} || this || window;
-  if (typeof define !== 'undefined') define('scratchhw-save-svg-as-png', [], () => out$);
+  if (typeof define !== 'undefined') define('openblock-save-svg-as-png', [], () => out$);
   out$.default = out$;
 
   const xmlNs = 'http://www.w3.org/2000/xmlns/';

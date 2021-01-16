@@ -1,5 +1,5 @@
 {
-  "name": "scratchhw-save-svg-as-png",
+  "name": "openblock-save-svg-as-png",
   "version": "1.4.18",
   "description": "Convert a browser SVG to PNG or dataUri",
   "main": "lib/saveSvgAsPng.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/exupero/saveSvgAsPng"
+    "url": "https://github.com/openblockcc/saveSvgAsPng"
   },
   "keywords": [
     "svg",
@@ -21,9 +21,9 @@
   "author": "Eric Shull",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/exupero/saveSvgAsPng/issues"
+    "url": "https://github.com/openblockcc/saveSvgAsPng/issues"
   },
-  "homepage": "https://github.com/exupero/saveSvgAsPng",
+  "homepage": "https://github.com/openblockcc/saveSvgAsPng",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
