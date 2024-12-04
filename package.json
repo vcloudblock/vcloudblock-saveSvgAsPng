@@ -1,5 +1,5 @@
 {
-  "name": "openblock-save-svg-as-png",
+  "name": "vcloudblock-save-svg-as-png",
   "version": "1.4.18",
   "description": "Convert a browser SVG to PNG or dataUri",
   "main": "lib/saveSvgAsPng.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/openblockcc/saveSvgAsPng"
+    "url": "https://github.com/vcloudblock/vcloudblock-saveSvgAsPng"
   },
   "keywords": [
     "svg",
@@ -21,13 +21,16 @@
   "author": "Eric Shull",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/openblockcc/saveSvgAsPng/issues"
+    "url": "https://github.com/vcloudblock/vcloudblock-saveSvgAsPng/issues"
   },
-  "homepage": "https://github.com/openblockcc/saveSvgAsPng",
+  "homepage": "https://github.com/vcloudblock/vcloudblock-saveSvgAsPng",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "requirejs": "^2.3.5",
     "tape": "^4.9.0"
+  },
+  "dependencies": {
+    "vcloudblock-save-svg-as-png": "file:"
   }
 }
