@@ -2,7 +2,7 @@
   "name": "vcloudblock-save-svg-as-png",
   "version": "1.4.18",
   "description": "Convert a browser SVG to PNG or dataUri",
-  "main": "lib/saveSvgAsPng.js",
+  "main": "lib/vcloudblock-save-svg-as-png.js",
   "scripts": {
     "build": "babel src -d lib",
     "prepublish": "npm run build",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:vcloudblock/vcloudblock-saveSvgAsPng.git"
+    "url": "git+git@github.com:vcloudblock/vcloudblock-saveSvgAsPng.git"
   },
   "keywords": [
     "svg",
